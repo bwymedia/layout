@@ -1,4 +1,4 @@
-import { BoxProps, BoxStyleProps } from "../index.js";
+import { BoxProps } from "../index.js";
 
 export class Styles {
   static apply = (

@@ -6,6 +6,7 @@ export interface LayoutProperties {
     shorthand?: {
       [key: string]: string;
     };
+    suffix?: string;
   };
 }
 
@@ -33,11 +34,13 @@ export const Properties: LayoutProperties = {
     jsx: "bottom",
     css: "bottom",
     options: NumericalCommons,
+    suffix: "px",
   },
   br: {
     jsx: "borderRadius",
     css: "border-radius",
     options: NumericalCommons,
+    suffix: "px",
   },
   c: {
     jsx: "backgroundColor",
@@ -80,6 +83,8 @@ export const Properties: LayoutProperties = {
   h: {
     jsx: "height",
     css: "height",
+    options: NumericalCommons,
+    suffix: "px",
   },
   i: {
     jsx: "zIndex",
@@ -106,6 +111,8 @@ export const Properties: LayoutProperties = {
   l: {
     jsx: "left",
     css: "left",
+    options: NumericalCommons,
+    suffix: "px",
   },
   lh: {
     jsx: "lineHeight",
@@ -115,46 +122,55 @@ export const Properties: LayoutProperties = {
     jsx: "margin",
     css: "margin",
     options: NumericalCommons,
+    suffix: "px",
   },
   mb: {
     jsx: "marginBottom",
     css: "margin-bottom",
     options: NumericalCommons,
+    suffix: "px",
   },
   ml: {
     jsx: "marginLeft",
     css: "margin-left",
     options: NumericalCommons,
+    suffix: "px",
   },
   mnh: {
     jsx: "minHeight",
     css: "min-height",
     options: NumericalCommons,
+    suffix: "px",
   },
   mnw: {
     jsx: "minWidth",
     css: "min-width",
     options: NumericalCommons,
+    suffix: "px",
   },
   mr: {
     jsx: "marginRight",
     css: "margin-right",
     options: NumericalCommons,
+    suffix: "px",
   },
   mt: {
     jsx: "marginTop",
     css: "margin-top",
     options: NumericalCommons,
+    suffix: "px",
   },
   mxh: {
     jsx: "maxHeight",
     css: "max-height",
     options: NumericalCommons,
+    suffix: "px",
   },
   mxw: {
     jsx: "maxWidth",
     css: "max-width",
     options: NumericalCommons,
+    suffix: "px",
   },
   o: {
     jsx: "opacity",
@@ -209,36 +225,43 @@ export const Properties: LayoutProperties = {
     jsx: "padding",
     css: "padding",
     options: NumericalCommons,
+    suffix: "px",
   },
   pb: {
     jsx: "paddingBottom",
     css: "padding-bottom",
     options: NumericalCommons,
+    suffix: "px",
   },
   pl: {
     jsx: "paddingLeft",
     css: "padding-left",
     options: NumericalCommons,
+    suffix: "px",
   },
   pr: {
     jsx: "paddingRight",
     css: "padding-right",
     options: NumericalCommons,
+    suffix: "px",
   },
   pt: {
     jsx: "paddingTop",
     css: "padding-top",
     options: NumericalCommons,
+    suffix: "px",
   },
   r: {
     jsx: "right",
     css: "right",
     options: NumericalCommons,
+    suffix: "px",
   },
   t: {
     jsx: "top",
     css: "top",
     options: NumericalCommons,
+    suffix: "px",
   },
   ta: {
     jsx: "textAlign",
@@ -254,6 +277,7 @@ export const Properties: LayoutProperties = {
     jsx: "width",
     css: "width",
     options: NumericalCommons,
+    suffix: "px",
   },
   ws: {
     jsx: "whiteSpace",

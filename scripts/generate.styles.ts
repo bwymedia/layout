@@ -3,6 +3,10 @@ import * as sass from "sass";
 
 import { Properties } from "../src/helpers/Properties";
 
+const numeric = (value: string): boolean => {
+  return !isNaN(Number(value));
+};
+
 type PropertiesStructure = {
   [key: string]: {
     [key: string]: string;
@@ -16,12 +20,20 @@ Object.entries(Properties).forEach(([key, _]) => {
   structure[key] = {};
 
   _?.options?.forEach((value) => {
-    structure[key][value] = value;
+    if (_.suffix && numeric(value)) {
+      structure[key][value] = `${value}${_.suffix}`;
+    } else {
+      structure[key][value] = value;
+    }
   });
 
   if (_?.shorthand) {
     Object.entries(_.shorthand).forEach(([s, v]) => {
-      structure[key][s] = v as string;
+      if (_.suffix && numeric(v)) {
+        structure[key][s] = `${v}${_.suffix}`;
+      } else {
+        structure[key][s] = v as string;
+      }
     });
   }
 

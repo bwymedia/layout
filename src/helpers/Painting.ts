@@ -5,6 +5,18 @@ import Styles from "./Styles.js";
 export class Painting {
   static style(props: BoxProps) {
     const styles = Styles.parse(props);
+
+    if (!props.style && !props.parse) {
+      return styles.style;
+    }
+
+    if (!props.parse) {
+      return {
+        ...styles.style,
+        ...props.style,
+      };
+    }
+
     const parsed = Parser.parse(props.parse, props.pure);
 
     const calculated = {
@@ -21,13 +33,17 @@ export class Painting {
   }
 
   static css(props: BoxProps) {
+    if (!props.parse && props.css) {
+      return props.css;
+    }
+
     const parsed = Parser.parse(props.parse, props.pure);
 
     if (!parsed.css && !props.css) {
       return undefined;
     }
 
-    return `${parsed.css} ${props.css}`.trim();
+    return `${parsed.css ? `${parsed.css} ` : ""}${props.css}`.trim();
   }
 }
 
