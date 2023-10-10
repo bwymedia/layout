@@ -17,9 +17,10 @@
     "access": "public"
   },
   "scripts": {
-    "build": "npm run clean && npm run type:dts && npm run build:main",
+    "build": "npm run clean && npm run type:dts && npm run build:main && npm run build:native:demo",
     "build:main": "tsx ./scripts/build.ts",
-    "clean": "rimraf build coverage nyc_output",
+    "build:native:demo": "tsx ./scripts/build.native.demo.ts",
+    "clean": "rimraf build coverage nyc_output demo/native/lib",
     "type:dts": "tsc --emitDeclarationOnly --project tsconfig.build.json",
     "type:check": "tsc --noEmit",
     "format": "prettier \"lib/**/*.ts\" --write",
@@ -33,7 +34,8 @@
     "cz": "cz",
     "semantic-release": "semantic-release",
     "script:generate:styles": "tsx ./scripts/generate.styles.ts",
-    "demo:react:start": "cd demo/react && npm run dev"
+    "demo:react:start": "cd demo/react && npm run dev",
+    "demo:native:start": "npm run build && cd demo/native && npm run start"
   },
   "devDependencies": {
     "@ryansonshine/commitizen": "^4.2.8",
@@ -69,6 +71,7 @@
     "vitest": "^0.34.3"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-native": "^0.72.5"
   }
 }

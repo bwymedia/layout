@@ -4,7 +4,7 @@ import { globbyStream } from "globby";
 import { build as esbuild } from "esbuild";
 
 const srcPath = path.join(process.cwd(), "lib");
-const buildPath = path.join(process.cwd(), "build");
+const buildPath = path.join(process.cwd(), "demo/native/lib");
 
 async function buildFile(filePath: string) {
   return esbuild({
