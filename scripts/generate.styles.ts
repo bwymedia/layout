@@ -1,7 +1,7 @@
 import fs from "fs";
 import * as sass from "sass";
 
-import { Properties } from "../src/helpers/Properties";
+import { Properties } from "../lib/helpers/Properties";
 
 const numeric = (value: string): boolean => {
   return !isNaN(Number(value));

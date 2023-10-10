@@ -3,7 +3,7 @@ import url from "node:url";
 import { globbyStream } from "globby";
 import { build as esbuild } from "esbuild";
 
-const srcPath = path.join(process.cwd(), "src");
+const srcPath = path.join(process.cwd(), "lib");
 const buildPath = path.join(process.cwd(), "build");
 
 async function buildFile(filePath: string) {

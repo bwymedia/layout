@@ -1,0 +1,75 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    font-family: Figtree;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+p {
+    opacity: 0.5;
+}
+
+.yellow {
+    color: #ECC48D;
+}
+
+.green {
+    color: #ADDB67;
+}
+
+.purple {
+    color: #C792EA;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.grey {
+    color: #637777;
+}
+
+.red {
+    color: #F78C6C;
+}
+
+.blue {
+    color: #7DD8C7;
+}
+
+.invisible {
+    color: transparent;
+    opacity: 0;
+}
+
+.tab {
+    width: 24px;
+    color: transparent;
+    opacity: 0;
+    max-width: 24px;
+}
+
+.test {
+    margin-right: 12px;
+    margin-left: 12px;
+    font-size: small;
+}
+
+.test.green {
+    font-weight: bold;
+}

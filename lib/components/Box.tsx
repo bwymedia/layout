@@ -9,7 +9,7 @@ export const Box = (p: BoxProps) => {
     ref: p.reference,
   };
 
-  const Element = `${p.element || "box"}` as keyof JSX.IntrinsicElements;
+  const Element = `${p.element || "div"}` as keyof JSX.IntrinsicElements;
 
   return (
     <Element
