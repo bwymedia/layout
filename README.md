@@ -33,7 +33,7 @@ npm install --save @broadwaymedia/layout
 
 **Layout** serves as a versatile component that mimics the behavior of both HTML `<div>` elements in web development and React Native's `<View>`. It empowers developers to write code in a minimalistic notation, streamlining the development process and ensuring cross-platform compatibility.
 
-<a href="https://raw.githubusercontent.com/bwymedia/layout/master/docs/properties.md">Full Guide on Properties</a>
+<a href="https://github.com/bwymedia/layout/blob/master/docs/properties.md">Full Guide on Properties</a>
 
 ```jsx
 import { Box } from "@broadwaymedia/layout";
@@ -82,7 +82,7 @@ ReactDOM.render(
 
 This approach not only enhances developer productivity but also eliminates concerns about cross-platform compatibility.
 
-<a href="https://raw.githubusercontent.com/bwymedia/layout/master/docs/parsing.md">Full Guide on Parsing</a>
+<a href="https://github.com/bwymedia/layout/blob/master/docs/parsing.md">Full Guide on Parsing</a>
 
 ```jsx
 import { Box } from "@broadwaymedia/layout";
