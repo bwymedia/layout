@@ -1,6 +1,7 @@
 import React from "react";
-import Painting from "../helpers/Painting.js";
 import LayoutPlatform, { LayoutPlatforms } from "../helpers/LayoutPlatform.js";
+import BoxWeb from "./web/BoxWeb.js";
+import BoxNative from "./native/BoxNative.js";
 
 export const Box = (p: BoxProps) => {
   if (LayoutPlatform.OS === LayoutPlatforms.WEB) {
@@ -12,71 +13,6 @@ export const Box = (p: BoxProps) => {
   }
 
   return null;
-};
-
-export const BoxNative = (p: BoxProps) => {
-  const { TouchableOpacity, View } = require("react-native");
-
-  const style = Painting.style({
-    ...p,
-    pure: true,
-    parse:
-      p.parse && p.css
-        ? `${p.parse} ${p.css}`
-        : p.parse
-        ? p.parse
-        : p.css || undefined,
-  });
-  const extras: {
-    [key: string]: unknown;
-  } = {
-    ref: p.reference,
-  };
-
-  if (p.press) {
-    return (
-      <TouchableOpacity
-        id={p.id}
-        onPress={p.press}
-        style={style}
-        {...extras}
-        {...p.native}
-      >
-        {p.children}
-      </TouchableOpacity>
-    );
-  }
-
-  return (
-    <View id={p.id} style={style} {...extras} {...p.native}>
-      {p.children}
-    </View>
-  );
-};
-
-export const BoxWeb = (p: BoxProps) => {
-  const style = Painting.style(p);
-  const css = Painting.css(p);
-  const extras: {
-    [key: string]: unknown;
-  } = {
-    ref: p.reference,
-  };
-
-  const Element = `${p.element || "div"}` as keyof JSX.IntrinsicElements;
-
-  return (
-    <Element
-      id={p.id}
-      onClick={p.press}
-      style={style}
-      className={css}
-      {...extras}
-      {...p.native}
-    >
-      {p.children}
-    </Element>
-  );
 };
 
 export default Box;
