@@ -1,4 +1,4 @@
-<a href="https://github.com/bwymedia/layout"><img alt="layout" src="https://raw.githubusercontent.com/bwymedia/layout/main/docs/assets/header.svg"/></a>
+<a href="https://github.com/bwymedia/layout"><img alt="layout" src="https://raw.githubusercontent.com/bwymedia/layout/master/docs/assets/header.svg"/></a>
 <br />
 
 <div align="center"><strong>Simple layout for React & React Native.</strong></div>
