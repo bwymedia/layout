@@ -266,7 +266,7 @@ export const Properties: LayoutProperties = {
   ta: {
     jsx: "textAlign",
     css: "text-align",
-    options: ["normal", "nowrap", "pre", "pre-wrap", "pre-line"],
+    options: ["left", "center", "right"],
     shorthand: {
       l: "left",
       c: "center",

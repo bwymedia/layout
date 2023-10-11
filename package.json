@@ -34,6 +34,7 @@
     "cz": "cz",
     "semantic-release": "semantic-release",
     "script:generate:styles": "tsx ./scripts/generate.styles.ts",
+    "script:generate:docs": "tsx ./scripts/generate.docs.ts",
     "demo:react:start": "cd demo/react && npm run dev",
     "demo:native:start": "npm run build && cd demo/native && npm run start"
   },
