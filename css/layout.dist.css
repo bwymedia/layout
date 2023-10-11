@@ -2439,20 +2439,14 @@
   top: auto;
 }
 
-.ta\:normal {
-  text-align: normal;
+.ta\:left {
+  text-align: left;
 }
-.ta\:nowrap {
-  text-align: nowrap;
+.ta\:center {
+  text-align: center;
 }
-.ta\:pre {
-  text-align: pre;
-}
-.ta\:pre-wrap {
-  text-align: pre-wrap;
-}
-.ta\:pre-line {
-  text-align: pre-line;
+.ta\:right {
+  text-align: right;
 }
 .ta\:l {
   text-align: left;
