@@ -1,6 +1,6 @@
-import { BoxProps } from "../index.js";
+import { BoxProps } from "../../index.js";
 
-export class Styles {
+export class BoxStyles {
   static apply = (
     styles: {
       [key: string]: unknown;
@@ -115,4 +115,4 @@ export class Styles {
   }
 }
 
-export default Styles;
+export default BoxStyles;

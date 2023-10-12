@@ -301,6 +301,10 @@ export const Properties: LayoutProperties = {
       wr: "wrap-reverse",
     },
   },
+  ff: {
+    jsx: "fontFamily",
+    css: "font-family",
+  },
 };
 
 export default Properties;

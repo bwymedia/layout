@@ -86,3 +86,4 @@ Writing the attribute directly, would automatically be accepted, you can use the
 | width | width | ... | w | ... |
 | white-space | whiteSpace | normal, nowrap, pre, pre-wrap, pre-line | ws | n, nw, p, pw, pl |
 | flex-wrap | flexWrap | nowrap, wrap, wrap-reverse | fw | n, w, wr |
+| font-family | fontFamily | ... | ff | ... |

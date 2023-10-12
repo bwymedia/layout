@@ -2652,3 +2652,19 @@
 .fw\:auto {
   flex-wrap: auto;
 }
+
+.ff\:unset {
+  font-family: unset;
+}
+.ff\:initial {
+  font-family: initial;
+}
+.ff\:inherit {
+  font-family: inherit;
+}
+.ff\:none {
+  font-family: none;
+}
+.ff\:auto {
+  font-family: auto;
+}

@@ -1,8 +1,7 @@
-import React from "react";
-import Painting from "../../helpers/painting/BoxPainting.js";
-import { BoxProps } from "../Box.js";
+import { TextProps } from "../Text.js";
+import Painting from "../../helpers/painting/TextPainting.js";
 
-export const BoxWeb = (p: BoxProps) => {
+export const TextWeb = (p: TextProps) => {
   const style = Painting.style(p);
   const css = Painting.css(p);
   const extras: {
@@ -11,7 +10,7 @@ export const BoxWeb = (p: BoxProps) => {
     ref: p.reference,
   };
 
-  const Element = `${p.element || "div"}` as keyof JSX.IntrinsicElements;
+  const Element = `${p.element || "span"}` as keyof JSX.IntrinsicElements;
 
   return (
     <Element
@@ -19,6 +18,8 @@ export const BoxWeb = (p: BoxProps) => {
       onClick={p.press}
       style={style}
       className={css}
+      target={p.target}
+      href={p.to}
       {...extras}
       {...p.native}
     >
@@ -27,4 +28,4 @@ export const BoxWeb = (p: BoxProps) => {
   );
 };
 
-export default BoxWeb;
+export default TextWeb;

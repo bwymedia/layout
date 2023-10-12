@@ -1,8 +1,8 @@
-import { BoxProps } from "../index.js";
-import Parser from "./Parser.js";
-import Styles from "./Styles.js";
+import { BoxProps } from "../../index.js";
+import Parser from "../Parser.js";
+import Styles from "../styles/BoxStyles.js";
 
-export class Painting {
+export class BoxPainting {
   static style(props: BoxProps) {
     const styles = Styles.parse(props);
 
@@ -47,4 +47,4 @@ export class Painting {
   }
 }
 
-export default Painting;
+export default BoxPainting;

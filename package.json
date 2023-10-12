@@ -49,6 +49,7 @@
     "@types/node": "^18.16.3",
     "@types/prompts": "^2.4.4",
     "@types/react": "^18.2.21",
+    "@types/react-native": "^0.72.3",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
     "c8": "^8.0.1",

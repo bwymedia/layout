@@ -1,5 +1,5 @@
 import React from "react";
-import Painting from "../../helpers/Painting.js";
+import Painting from "../../helpers/painting/BoxPainting.js";
 import { BoxProps } from "../Box.js";
 
 export const BoxNative = (p: BoxProps) => {

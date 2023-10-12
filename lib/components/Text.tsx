@@ -1,33 +1,35 @@
 import React from "react";
 import LayoutPlatform, { LayoutPlatforms } from "../helpers/LayoutPlatform.js";
-import BoxWeb from "./web/BoxWeb.js";
-import BoxNative from "./native/BoxNative.js";
+import TextWeb from "./web/TextWeb.js";
+import TextNative from "./native/TextNative.js";
 
-export const Box = (p: BoxProps) => {
+export const Text = (p: TextProps) => {
   if (LayoutPlatform.OS === LayoutPlatforms.WEB) {
-    return BoxWeb(p);
+    return TextWeb(p);
   }
 
   if (LayoutPlatform.OS === LayoutPlatforms.NATIVE) {
-    return BoxNative(p);
+    return TextNative(p);
   }
 
-  console.warn("Box component is not supported for this platform.");
+  console.warn("Text component is not supported for this platform.");
   return null;
 };
 
-export default Box;
+export default Text;
 
-export type BoxGenericProps = {
+export type TextGenericProps = {
   children?: JSX.Element | JSX.Element[];
   native?: {
     [key: string]: unknown;
   };
   element?: string;
   id?: string;
+  target?: string;
+  to?: string;
 };
 
-export type BoxStyleProps = {
+export type TextStyleProps = {
   top?: number | string;
   left?: number | string;
   bottom?: number | string;
@@ -65,18 +67,9 @@ export type BoxStyleProps = {
     | "inherit"
     | "none"
     | "auto";
-  wrap?:
-    | "nowrap"
-    | "wrap"
-    | "wrap-reverse"
-    | "unset"
-    | "initial"
-    | "inherit"
-    | "none"
-    | "auto";
+  space?: "normal" | "nowrap" | "pre" | "pre-line" | "pre-wrap";
+  family?: string;
   color?: string;
-  radius?: number;
-  shadow?: string;
   height?: number | string;
   width?: number | string;
   opacity?: number;
@@ -111,9 +104,7 @@ export type BoxStyleProps = {
     | "inherit"
     | "none"
     | "auto";
-  border?: string;
   layer?: number;
-  image?: string;
 
   mode?: "margin" | "padding" | "position";
   style?: {
@@ -121,11 +112,11 @@ export type BoxStyleProps = {
   };
 };
 
-export type BoxProps = {
+export type TextProps = {
   parse?: string;
   css?: string;
-  reference?: React.Ref<HTMLDivElement>;
+  reference?: React.Ref<HTMLSpanElement>;
   press?: () => unknown;
   pure?: boolean;
-} & BoxGenericProps &
-  BoxStyleProps;
+} & TextGenericProps &
+  TextStyleProps;
