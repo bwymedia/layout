@@ -105,7 +105,6 @@ export type TextStyleProps = {
     | "none"
     | "auto";
   layer?: number;
-
   mode?: "margin" | "padding" | "position";
   style?: {
     [key: string]: unknown;

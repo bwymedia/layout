@@ -10,7 +10,9 @@ export const TextWeb = (p: TextProps) => {
     ref: p.reference,
   };
 
-  const Element = `${p.element || "span"}` as keyof JSX.IntrinsicElements;
+  const Element = `${
+    p.element || p.to ? "a" : "span"
+  }` as keyof JSX.IntrinsicElements;
 
   return (
     <Element

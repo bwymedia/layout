@@ -24,6 +24,7 @@ export class TextStyles {
       [key: string]: unknown;
     } = {};
 
+    _ = this.apply(_, "fontFamily", props.family);
     _ = this.apply(_, "height", props.height);
     _ = this.apply(_, "width", props.width);
     _ = this.apply(_, "opacity", props.opacity);
