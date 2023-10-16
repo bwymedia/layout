@@ -1,0 +1,42 @@
+{
+  "name": "layout",
+  "publisher": "broadwaymedia",
+  "displayName": "Layout Extensions",
+  "description": "Layout extensions for @broadwaymedia/layout. A web-first primitive layout library supporting all major platforms.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "editor.quickSuggestions": {
+        "strings": "on",
+        "comments": "off",
+        "other": "off"
+      },
+      "editor.snippetSuggestions": "top"
+    },
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "icon": "./icon.png"
+}

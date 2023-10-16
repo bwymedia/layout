@@ -1,0 +1,1757 @@
+{
+  "a:flex-start": {
+    "prefix": [
+      "a:flex-start"
+    ],
+    "body": [
+      "a:flex-start"
+    ],
+    "description": "align items flex start"
+  },
+  "a:flex-end": {
+    "prefix": [
+      "a:flex-end"
+    ],
+    "body": [
+      "a:flex-end"
+    ],
+    "description": "align items flex end"
+  },
+  "a:center": {
+    "prefix": [
+      "a:center"
+    ],
+    "body": [
+      "a:center"
+    ],
+    "description": "align items center"
+  },
+  "a:baseline": {
+    "prefix": [
+      "a:baseline"
+    ],
+    "body": [
+      "a:baseline"
+    ],
+    "description": "align items baseline"
+  },
+  "a:stretch": {
+    "prefix": [
+      "a:stretch"
+    ],
+    "body": [
+      "a:stretch"
+    ],
+    "description": "align items stretch"
+  },
+  "a:fs": {
+    "prefix": [
+      "a:fs"
+    ],
+    "body": [
+      "a:fs"
+    ],
+    "description": "align items flex start"
+  },
+  "a:fe": {
+    "prefix": [
+      "a:fe"
+    ],
+    "body": [
+      "a:fe"
+    ],
+    "description": "align items flex end"
+  },
+  "a:c": {
+    "prefix": [
+      "a:c"
+    ],
+    "body": [
+      "a:c"
+    ],
+    "description": "align items center"
+  },
+  "a:b": {
+    "prefix": [
+      "a:b"
+    ],
+    "body": [
+      "a:b"
+    ],
+    "description": "align items baseline"
+  },
+  "a:s": {
+    "prefix": [
+      "a:s"
+    ],
+    "body": [
+      "a:s"
+    ],
+    "description": "align items stretch"
+  },
+  "align-items:flex-start": {
+    "prefix": [
+      "align-items:flex-start"
+    ],
+    "body": [
+      "align-items:flex-start"
+    ],
+    "description": "align items flex start"
+  },
+  "align-items:flex-end": {
+    "prefix": [
+      "align-items:flex-end"
+    ],
+    "body": [
+      "align-items:flex-end"
+    ],
+    "description": "align items flex end"
+  },
+  "align-items:center": {
+    "prefix": [
+      "align-items:center"
+    ],
+    "body": [
+      "align-items:center"
+    ],
+    "description": "align items center"
+  },
+  "align-items:baseline": {
+    "prefix": [
+      "align-items:baseline"
+    ],
+    "body": [
+      "align-items:baseline"
+    ],
+    "description": "align items baseline"
+  },
+  "align-items:stretch": {
+    "prefix": [
+      "align-items:stretch"
+    ],
+    "body": [
+      "align-items:stretch"
+    ],
+    "description": "align items stretch"
+  },
+  "b:*": {
+    "prefix": [
+      "b:"
+    ],
+    "body": [
+      "b:$1"
+    ],
+    "description": "bottom *"
+  },
+  "bottom:*": {
+    "prefix": [
+      "bottom:"
+    ],
+    "body": [
+      "bottom:$1"
+    ],
+    "description": "bottom *"
+  },
+  "br:*": {
+    "prefix": [
+      "br:"
+    ],
+    "body": [
+      "br:$1"
+    ],
+    "description": "border radius *"
+  },
+  "border-radius:*": {
+    "prefix": [
+      "border-radius:"
+    ],
+    "body": [
+      "border-radius:$1"
+    ],
+    "description": "border radius *"
+  },
+  "c:*": {
+    "prefix": [
+      "c:"
+    ],
+    "body": [
+      "c:$1"
+    ],
+    "description": "background color *"
+  },
+  "background-color:*": {
+    "prefix": [
+      "background-color:"
+    ],
+    "body": [
+      "background-color:$1"
+    ],
+    "description": "background color *"
+  },
+  "tc:*": {
+    "prefix": [
+      "tc:"
+    ],
+    "body": [
+      "tc:$1"
+    ],
+    "description": "color *"
+  },
+  "color:*": {
+    "prefix": [
+      "color:"
+    ],
+    "body": [
+      "color:$1"
+    ],
+    "description": "color *"
+  },
+  "d:flex": {
+    "prefix": [
+      "d:flex"
+    ],
+    "body": [
+      "d:flex"
+    ],
+    "description": "display flex"
+  },
+  "d:block": {
+    "prefix": [
+      "d:block"
+    ],
+    "body": [
+      "d:block"
+    ],
+    "description": "display block"
+  },
+  "d:inline-block": {
+    "prefix": [
+      "d:inline-block"
+    ],
+    "body": [
+      "d:inline-block"
+    ],
+    "description": "display inline block"
+  },
+  "d:inline": {
+    "prefix": [
+      "d:inline"
+    ],
+    "body": [
+      "d:inline"
+    ],
+    "description": "display inline"
+  },
+  "d:f": {
+    "prefix": [
+      "d:f"
+    ],
+    "body": [
+      "d:f"
+    ],
+    "description": "display flex"
+  },
+  "d:b": {
+    "prefix": [
+      "d:b"
+    ],
+    "body": [
+      "d:b"
+    ],
+    "description": "display block"
+  },
+  "d:ib": {
+    "prefix": [
+      "d:ib"
+    ],
+    "body": [
+      "d:ib"
+    ],
+    "description": "display inline block"
+  },
+  "d:i": {
+    "prefix": [
+      "d:i"
+    ],
+    "body": [
+      "d:i"
+    ],
+    "description": "display inline"
+  },
+  "display:flex": {
+    "prefix": [
+      "display:flex"
+    ],
+    "body": [
+      "display:flex"
+    ],
+    "description": "display flex"
+  },
+  "display:block": {
+    "prefix": [
+      "display:block"
+    ],
+    "body": [
+      "display:block"
+    ],
+    "description": "display block"
+  },
+  "display:inline-block": {
+    "prefix": [
+      "display:inline-block"
+    ],
+    "body": [
+      "display:inline-block"
+    ],
+    "description": "display inline block"
+  },
+  "display:inline": {
+    "prefix": [
+      "display:inline"
+    ],
+    "body": [
+      "display:inline"
+    ],
+    "description": "display inline"
+  },
+  "f:*": {
+    "prefix": [
+      "f:"
+    ],
+    "body": [
+      "f:$1"
+    ],
+    "description": "flex *"
+  },
+  "flex:*": {
+    "prefix": [
+      "flex:"
+    ],
+    "body": [
+      "flex:$1"
+    ],
+    "description": "flex *"
+  },
+  "fd:row": {
+    "prefix": [
+      "fd:row"
+    ],
+    "body": [
+      "fd:row"
+    ],
+    "description": "flex direction row"
+  },
+  "fd:row-reverse": {
+    "prefix": [
+      "fd:row-reverse"
+    ],
+    "body": [
+      "fd:row-reverse"
+    ],
+    "description": "flex direction row reverse"
+  },
+  "fd:column": {
+    "prefix": [
+      "fd:column"
+    ],
+    "body": [
+      "fd:column"
+    ],
+    "description": "flex direction column"
+  },
+  "fd:column-reverse": {
+    "prefix": [
+      "fd:column-reverse"
+    ],
+    "body": [
+      "fd:column-reverse"
+    ],
+    "description": "flex direction column reverse"
+  },
+  "fd:r": {
+    "prefix": [
+      "fd:r"
+    ],
+    "body": [
+      "fd:r"
+    ],
+    "description": "flex direction row"
+  },
+  "fd:rr": {
+    "prefix": [
+      "fd:rr"
+    ],
+    "body": [
+      "fd:rr"
+    ],
+    "description": "flex direction row reverse"
+  },
+  "fd:c": {
+    "prefix": [
+      "fd:c"
+    ],
+    "body": [
+      "fd:c"
+    ],
+    "description": "flex direction column"
+  },
+  "fd:cr": {
+    "prefix": [
+      "fd:cr"
+    ],
+    "body": [
+      "fd:cr"
+    ],
+    "description": "flex direction column reverse"
+  },
+  "flex-direction:row": {
+    "prefix": [
+      "flex-direction:row"
+    ],
+    "body": [
+      "flex-direction:row"
+    ],
+    "description": "flex direction row"
+  },
+  "flex-direction:row-reverse": {
+    "prefix": [
+      "flex-direction:row-reverse"
+    ],
+    "body": [
+      "flex-direction:row-reverse"
+    ],
+    "description": "flex direction row reverse"
+  },
+  "flex-direction:column": {
+    "prefix": [
+      "flex-direction:column"
+    ],
+    "body": [
+      "flex-direction:column"
+    ],
+    "description": "flex direction column"
+  },
+  "flex-direction:column-reverse": {
+    "prefix": [
+      "flex-direction:column-reverse"
+    ],
+    "body": [
+      "flex-direction:column-reverse"
+    ],
+    "description": "flex direction column reverse"
+  },
+  "fs:*": {
+    "prefix": [
+      "fs:"
+    ],
+    "body": [
+      "fs:$1"
+    ],
+    "description": "font size *"
+  },
+  "font-size:*": {
+    "prefix": [
+      "font-size:"
+    ],
+    "body": [
+      "font-size:$1"
+    ],
+    "description": "font size *"
+  },
+  "h:*": {
+    "prefix": [
+      "h:"
+    ],
+    "body": [
+      "h:$1"
+    ],
+    "description": "height *"
+  },
+  "height:*": {
+    "prefix": [
+      "height:"
+    ],
+    "body": [
+      "height:$1"
+    ],
+    "description": "height *"
+  },
+  "i:*": {
+    "prefix": [
+      "i:"
+    ],
+    "body": [
+      "i:$1"
+    ],
+    "description": "z index *"
+  },
+  "z-index:*": {
+    "prefix": [
+      "z-index:"
+    ],
+    "body": [
+      "z-index:$1"
+    ],
+    "description": "z index *"
+  },
+  "j:flex-start": {
+    "prefix": [
+      "j:flex-start"
+    ],
+    "body": [
+      "j:flex-start"
+    ],
+    "description": "justify content flex start"
+  },
+  "j:flex-end": {
+    "prefix": [
+      "j:flex-end"
+    ],
+    "body": [
+      "j:flex-end"
+    ],
+    "description": "justify content flex end"
+  },
+  "j:center": {
+    "prefix": [
+      "j:center"
+    ],
+    "body": [
+      "j:center"
+    ],
+    "description": "justify content center"
+  },
+  "j:space-between": {
+    "prefix": [
+      "j:space-between"
+    ],
+    "body": [
+      "j:space-between"
+    ],
+    "description": "justify content space between"
+  },
+  "j:space-around": {
+    "prefix": [
+      "j:space-around"
+    ],
+    "body": [
+      "j:space-around"
+    ],
+    "description": "justify content space around"
+  },
+  "j:fs": {
+    "prefix": [
+      "j:fs"
+    ],
+    "body": [
+      "j:fs"
+    ],
+    "description": "justify content flex start"
+  },
+  "j:fe": {
+    "prefix": [
+      "j:fe"
+    ],
+    "body": [
+      "j:fe"
+    ],
+    "description": "justify content flex end"
+  },
+  "j:c": {
+    "prefix": [
+      "j:c"
+    ],
+    "body": [
+      "j:c"
+    ],
+    "description": "justify content center"
+  },
+  "j:sb": {
+    "prefix": [
+      "j:sb"
+    ],
+    "body": [
+      "j:sb"
+    ],
+    "description": "justify content space between"
+  },
+  "j:sa": {
+    "prefix": [
+      "j:sa"
+    ],
+    "body": [
+      "j:sa"
+    ],
+    "description": "justify content space around"
+  },
+  "justify-content:flex-start": {
+    "prefix": [
+      "justify-content:flex-start"
+    ],
+    "body": [
+      "justify-content:flex-start"
+    ],
+    "description": "justify content flex start"
+  },
+  "justify-content:flex-end": {
+    "prefix": [
+      "justify-content:flex-end"
+    ],
+    "body": [
+      "justify-content:flex-end"
+    ],
+    "description": "justify content flex end"
+  },
+  "justify-content:center": {
+    "prefix": [
+      "justify-content:center"
+    ],
+    "body": [
+      "justify-content:center"
+    ],
+    "description": "justify content center"
+  },
+  "justify-content:space-between": {
+    "prefix": [
+      "justify-content:space-between"
+    ],
+    "body": [
+      "justify-content:space-between"
+    ],
+    "description": "justify content space between"
+  },
+  "justify-content:space-around": {
+    "prefix": [
+      "justify-content:space-around"
+    ],
+    "body": [
+      "justify-content:space-around"
+    ],
+    "description": "justify content space around"
+  },
+  "l:*": {
+    "prefix": [
+      "l:"
+    ],
+    "body": [
+      "l:$1"
+    ],
+    "description": "left *"
+  },
+  "left:*": {
+    "prefix": [
+      "left:"
+    ],
+    "body": [
+      "left:$1"
+    ],
+    "description": "left *"
+  },
+  "lh:*": {
+    "prefix": [
+      "lh:"
+    ],
+    "body": [
+      "lh:$1"
+    ],
+    "description": "line height *"
+  },
+  "line-height:*": {
+    "prefix": [
+      "line-height:"
+    ],
+    "body": [
+      "line-height:$1"
+    ],
+    "description": "line height *"
+  },
+  "ma:*": {
+    "prefix": [
+      "ma:"
+    ],
+    "body": [
+      "ma:$1"
+    ],
+    "description": "margin *"
+  },
+  "margin:*": {
+    "prefix": [
+      "margin:"
+    ],
+    "body": [
+      "margin:$1"
+    ],
+    "description": "margin *"
+  },
+  "mb:*": {
+    "prefix": [
+      "mb:"
+    ],
+    "body": [
+      "mb:$1"
+    ],
+    "description": "margin bottom *"
+  },
+  "margin-bottom:*": {
+    "prefix": [
+      "margin-bottom:"
+    ],
+    "body": [
+      "margin-bottom:$1"
+    ],
+    "description": "margin bottom *"
+  },
+  "ml:*": {
+    "prefix": [
+      "ml:"
+    ],
+    "body": [
+      "ml:$1"
+    ],
+    "description": "margin left *"
+  },
+  "margin-left:*": {
+    "prefix": [
+      "margin-left:"
+    ],
+    "body": [
+      "margin-left:$1"
+    ],
+    "description": "margin left *"
+  },
+  "mnh:*": {
+    "prefix": [
+      "mnh:"
+    ],
+    "body": [
+      "mnh:$1"
+    ],
+    "description": "min height *"
+  },
+  "min-height:*": {
+    "prefix": [
+      "min-height:"
+    ],
+    "body": [
+      "min-height:$1"
+    ],
+    "description": "min height *"
+  },
+  "mnw:*": {
+    "prefix": [
+      "mnw:"
+    ],
+    "body": [
+      "mnw:$1"
+    ],
+    "description": "min width *"
+  },
+  "min-width:*": {
+    "prefix": [
+      "min-width:"
+    ],
+    "body": [
+      "min-width:$1"
+    ],
+    "description": "min width *"
+  },
+  "mr:*": {
+    "prefix": [
+      "mr:"
+    ],
+    "body": [
+      "mr:$1"
+    ],
+    "description": "margin right *"
+  },
+  "margin-right:*": {
+    "prefix": [
+      "margin-right:"
+    ],
+    "body": [
+      "margin-right:$1"
+    ],
+    "description": "margin right *"
+  },
+  "mt:*": {
+    "prefix": [
+      "mt:"
+    ],
+    "body": [
+      "mt:$1"
+    ],
+    "description": "margin top *"
+  },
+  "margin-top:*": {
+    "prefix": [
+      "margin-top:"
+    ],
+    "body": [
+      "margin-top:$1"
+    ],
+    "description": "margin top *"
+  },
+  "mxh:*": {
+    "prefix": [
+      "mxh:"
+    ],
+    "body": [
+      "mxh:$1"
+    ],
+    "description": "max height *"
+  },
+  "max-height:*": {
+    "prefix": [
+      "max-height:"
+    ],
+    "body": [
+      "max-height:$1"
+    ],
+    "description": "max height *"
+  },
+  "mxw:*": {
+    "prefix": [
+      "mxw:"
+    ],
+    "body": [
+      "mxw:$1"
+    ],
+    "description": "max width *"
+  },
+  "max-width:*": {
+    "prefix": [
+      "max-width:"
+    ],
+    "body": [
+      "max-width:$1"
+    ],
+    "description": "max width *"
+  },
+  "o:0": {
+    "prefix": [
+      "o:0"
+    ],
+    "body": [
+      "o:0"
+    ],
+    "description": "opacity 0"
+  },
+  "o:1": {
+    "prefix": [
+      "o:1"
+    ],
+    "body": [
+      "o:1"
+    ],
+    "description": "opacity 1"
+  },
+  "opacity:0": {
+    "prefix": [
+      "opacity:0"
+    ],
+    "body": [
+      "opacity:0"
+    ],
+    "description": "opacity 0"
+  },
+  "opacity:1": {
+    "prefix": [
+      "opacity:1"
+    ],
+    "body": [
+      "opacity:1"
+    ],
+    "description": "opacity 1"
+  },
+  "oa:visible": {
+    "prefix": [
+      "oa:visible"
+    ],
+    "body": [
+      "oa:visible"
+    ],
+    "description": "overflow visible"
+  },
+  "oa:hidden": {
+    "prefix": [
+      "oa:hidden"
+    ],
+    "body": [
+      "oa:hidden"
+    ],
+    "description": "overflow hidden"
+  },
+  "oa:scroll": {
+    "prefix": [
+      "oa:scroll"
+    ],
+    "body": [
+      "oa:scroll"
+    ],
+    "description": "overflow scroll"
+  },
+  "oa:auto": {
+    "prefix": [
+      "oa:auto"
+    ],
+    "body": [
+      "oa:auto"
+    ],
+    "description": "overflow auto"
+  },
+  "oa:v": {
+    "prefix": [
+      "oa:v"
+    ],
+    "body": [
+      "oa:v"
+    ],
+    "description": "overflow visible"
+  },
+  "oa:h": {
+    "prefix": [
+      "oa:h"
+    ],
+    "body": [
+      "oa:h"
+    ],
+    "description": "overflow hidden"
+  },
+  "oa:s": {
+    "prefix": [
+      "oa:s"
+    ],
+    "body": [
+      "oa:s"
+    ],
+    "description": "overflow scroll"
+  },
+  "oa:a": {
+    "prefix": [
+      "oa:a"
+    ],
+    "body": [
+      "oa:a"
+    ],
+    "description": "overflow auto"
+  },
+  "overflow:visible": {
+    "prefix": [
+      "overflow:visible"
+    ],
+    "body": [
+      "overflow:visible"
+    ],
+    "description": "overflow visible"
+  },
+  "overflow:hidden": {
+    "prefix": [
+      "overflow:hidden"
+    ],
+    "body": [
+      "overflow:hidden"
+    ],
+    "description": "overflow hidden"
+  },
+  "overflow:scroll": {
+    "prefix": [
+      "overflow:scroll"
+    ],
+    "body": [
+      "overflow:scroll"
+    ],
+    "description": "overflow scroll"
+  },
+  "overflow:auto": {
+    "prefix": [
+      "overflow:auto"
+    ],
+    "body": [
+      "overflow:auto"
+    ],
+    "description": "overflow auto"
+  },
+  "ox:visible": {
+    "prefix": [
+      "ox:visible"
+    ],
+    "body": [
+      "ox:visible"
+    ],
+    "description": "overflow x visible"
+  },
+  "ox:hidden": {
+    "prefix": [
+      "ox:hidden"
+    ],
+    "body": [
+      "ox:hidden"
+    ],
+    "description": "overflow x hidden"
+  },
+  "ox:scroll": {
+    "prefix": [
+      "ox:scroll"
+    ],
+    "body": [
+      "ox:scroll"
+    ],
+    "description": "overflow x scroll"
+  },
+  "ox:auto": {
+    "prefix": [
+      "ox:auto"
+    ],
+    "body": [
+      "ox:auto"
+    ],
+    "description": "overflow x auto"
+  },
+  "ox:v": {
+    "prefix": [
+      "ox:v"
+    ],
+    "body": [
+      "ox:v"
+    ],
+    "description": "overflow x visible"
+  },
+  "ox:h": {
+    "prefix": [
+      "ox:h"
+    ],
+    "body": [
+      "ox:h"
+    ],
+    "description": "overflow x hidden"
+  },
+  "ox:s": {
+    "prefix": [
+      "ox:s"
+    ],
+    "body": [
+      "ox:s"
+    ],
+    "description": "overflow x scroll"
+  },
+  "ox:a": {
+    "prefix": [
+      "ox:a"
+    ],
+    "body": [
+      "ox:a"
+    ],
+    "description": "overflow x auto"
+  },
+  "overflow-x:visible": {
+    "prefix": [
+      "overflow-x:visible"
+    ],
+    "body": [
+      "overflow-x:visible"
+    ],
+    "description": "overflow x visible"
+  },
+  "overflow-x:hidden": {
+    "prefix": [
+      "overflow-x:hidden"
+    ],
+    "body": [
+      "overflow-x:hidden"
+    ],
+    "description": "overflow x hidden"
+  },
+  "overflow-x:scroll": {
+    "prefix": [
+      "overflow-x:scroll"
+    ],
+    "body": [
+      "overflow-x:scroll"
+    ],
+    "description": "overflow x scroll"
+  },
+  "overflow-x:auto": {
+    "prefix": [
+      "overflow-x:auto"
+    ],
+    "body": [
+      "overflow-x:auto"
+    ],
+    "description": "overflow x auto"
+  },
+  "oy:visible": {
+    "prefix": [
+      "oy:visible"
+    ],
+    "body": [
+      "oy:visible"
+    ],
+    "description": "overflow y visible"
+  },
+  "oy:hidden": {
+    "prefix": [
+      "oy:hidden"
+    ],
+    "body": [
+      "oy:hidden"
+    ],
+    "description": "overflow y hidden"
+  },
+  "oy:scroll": {
+    "prefix": [
+      "oy:scroll"
+    ],
+    "body": [
+      "oy:scroll"
+    ],
+    "description": "overflow y scroll"
+  },
+  "oy:auto": {
+    "prefix": [
+      "oy:auto"
+    ],
+    "body": [
+      "oy:auto"
+    ],
+    "description": "overflow y auto"
+  },
+  "oy:v": {
+    "prefix": [
+      "oy:v"
+    ],
+    "body": [
+      "oy:v"
+    ],
+    "description": "overflow y visible"
+  },
+  "oy:h": {
+    "prefix": [
+      "oy:h"
+    ],
+    "body": [
+      "oy:h"
+    ],
+    "description": "overflow y hidden"
+  },
+  "oy:s": {
+    "prefix": [
+      "oy:s"
+    ],
+    "body": [
+      "oy:s"
+    ],
+    "description": "overflow y scroll"
+  },
+  "oy:a": {
+    "prefix": [
+      "oy:a"
+    ],
+    "body": [
+      "oy:a"
+    ],
+    "description": "overflow y auto"
+  },
+  "overflow-y:visible": {
+    "prefix": [
+      "overflow-y:visible"
+    ],
+    "body": [
+      "overflow-y:visible"
+    ],
+    "description": "overflow y visible"
+  },
+  "overflow-y:hidden": {
+    "prefix": [
+      "overflow-y:hidden"
+    ],
+    "body": [
+      "overflow-y:hidden"
+    ],
+    "description": "overflow y hidden"
+  },
+  "overflow-y:scroll": {
+    "prefix": [
+      "overflow-y:scroll"
+    ],
+    "body": [
+      "overflow-y:scroll"
+    ],
+    "description": "overflow y scroll"
+  },
+  "overflow-y:auto": {
+    "prefix": [
+      "overflow-y:auto"
+    ],
+    "body": [
+      "overflow-y:auto"
+    ],
+    "description": "overflow y auto"
+  },
+  "p:absolute": {
+    "prefix": [
+      "p:absolute"
+    ],
+    "body": [
+      "p:absolute"
+    ],
+    "description": "position absolute"
+  },
+  "p:relative": {
+    "prefix": [
+      "p:relative"
+    ],
+    "body": [
+      "p:relative"
+    ],
+    "description": "position relative"
+  },
+  "p:fixed": {
+    "prefix": [
+      "p:fixed"
+    ],
+    "body": [
+      "p:fixed"
+    ],
+    "description": "position fixed"
+  },
+  "p:static": {
+    "prefix": [
+      "p:static"
+    ],
+    "body": [
+      "p:static"
+    ],
+    "description": "position static"
+  },
+  "p:a": {
+    "prefix": [
+      "p:a"
+    ],
+    "body": [
+      "p:a"
+    ],
+    "description": "position absolute"
+  },
+  "p:r": {
+    "prefix": [
+      "p:r"
+    ],
+    "body": [
+      "p:r"
+    ],
+    "description": "position relative"
+  },
+  "p:f": {
+    "prefix": [
+      "p:f"
+    ],
+    "body": [
+      "p:f"
+    ],
+    "description": "position fixed"
+  },
+  "p:s": {
+    "prefix": [
+      "p:s"
+    ],
+    "body": [
+      "p:s"
+    ],
+    "description": "position static"
+  },
+  "position:absolute": {
+    "prefix": [
+      "position:absolute"
+    ],
+    "body": [
+      "position:absolute"
+    ],
+    "description": "position absolute"
+  },
+  "position:relative": {
+    "prefix": [
+      "position:relative"
+    ],
+    "body": [
+      "position:relative"
+    ],
+    "description": "position relative"
+  },
+  "position:fixed": {
+    "prefix": [
+      "position:fixed"
+    ],
+    "body": [
+      "position:fixed"
+    ],
+    "description": "position fixed"
+  },
+  "position:static": {
+    "prefix": [
+      "position:static"
+    ],
+    "body": [
+      "position:static"
+    ],
+    "description": "position static"
+  },
+  "pa:*": {
+    "prefix": [
+      "pa:"
+    ],
+    "body": [
+      "pa:$1"
+    ],
+    "description": "padding *"
+  },
+  "padding:*": {
+    "prefix": [
+      "padding:"
+    ],
+    "body": [
+      "padding:$1"
+    ],
+    "description": "padding *"
+  },
+  "pb:*": {
+    "prefix": [
+      "pb:"
+    ],
+    "body": [
+      "pb:$1"
+    ],
+    "description": "padding bottom *"
+  },
+  "padding-bottom:*": {
+    "prefix": [
+      "padding-bottom:"
+    ],
+    "body": [
+      "padding-bottom:$1"
+    ],
+    "description": "padding bottom *"
+  },
+  "pl:*": {
+    "prefix": [
+      "pl:"
+    ],
+    "body": [
+      "pl:$1"
+    ],
+    "description": "padding left *"
+  },
+  "padding-left:*": {
+    "prefix": [
+      "padding-left:"
+    ],
+    "body": [
+      "padding-left:$1"
+    ],
+    "description": "padding left *"
+  },
+  "pr:*": {
+    "prefix": [
+      "pr:"
+    ],
+    "body": [
+      "pr:$1"
+    ],
+    "description": "padding right *"
+  },
+  "padding-right:*": {
+    "prefix": [
+      "padding-right:"
+    ],
+    "body": [
+      "padding-right:$1"
+    ],
+    "description": "padding right *"
+  },
+  "pt:*": {
+    "prefix": [
+      "pt:"
+    ],
+    "body": [
+      "pt:$1"
+    ],
+    "description": "padding top *"
+  },
+  "padding-top:*": {
+    "prefix": [
+      "padding-top:"
+    ],
+    "body": [
+      "padding-top:$1"
+    ],
+    "description": "padding top *"
+  },
+  "r:*": {
+    "prefix": [
+      "r:"
+    ],
+    "body": [
+      "r:$1"
+    ],
+    "description": "right *"
+  },
+  "right:*": {
+    "prefix": [
+      "right:"
+    ],
+    "body": [
+      "right:$1"
+    ],
+    "description": "right *"
+  },
+  "t:*": {
+    "prefix": [
+      "t:"
+    ],
+    "body": [
+      "t:$1"
+    ],
+    "description": "top *"
+  },
+  "top:*": {
+    "prefix": [
+      "top:"
+    ],
+    "body": [
+      "top:$1"
+    ],
+    "description": "top *"
+  },
+  "ta:left": {
+    "prefix": [
+      "ta:left"
+    ],
+    "body": [
+      "ta:left"
+    ],
+    "description": "text align left"
+  },
+  "ta:center": {
+    "prefix": [
+      "ta:center"
+    ],
+    "body": [
+      "ta:center"
+    ],
+    "description": "text align center"
+  },
+  "ta:right": {
+    "prefix": [
+      "ta:right"
+    ],
+    "body": [
+      "ta:right"
+    ],
+    "description": "text align right"
+  },
+  "ta:l": {
+    "prefix": [
+      "ta:l"
+    ],
+    "body": [
+      "ta:l"
+    ],
+    "description": "text align left"
+  },
+  "ta:c": {
+    "prefix": [
+      "ta:c"
+    ],
+    "body": [
+      "ta:c"
+    ],
+    "description": "text align center"
+  },
+  "ta:r": {
+    "prefix": [
+      "ta:r"
+    ],
+    "body": [
+      "ta:r"
+    ],
+    "description": "text align right"
+  },
+  "text-align:left": {
+    "prefix": [
+      "text-align:left"
+    ],
+    "body": [
+      "text-align:left"
+    ],
+    "description": "text align left"
+  },
+  "text-align:center": {
+    "prefix": [
+      "text-align:center"
+    ],
+    "body": [
+      "text-align:center"
+    ],
+    "description": "text align center"
+  },
+  "text-align:right": {
+    "prefix": [
+      "text-align:right"
+    ],
+    "body": [
+      "text-align:right"
+    ],
+    "description": "text align right"
+  },
+  "w:*": {
+    "prefix": [
+      "w:"
+    ],
+    "body": [
+      "w:$1"
+    ],
+    "description": "width *"
+  },
+  "width:*": {
+    "prefix": [
+      "width:"
+    ],
+    "body": [
+      "width:$1"
+    ],
+    "description": "width *"
+  },
+  "ws:normal": {
+    "prefix": [
+      "ws:normal"
+    ],
+    "body": [
+      "ws:normal"
+    ],
+    "description": "white space normal"
+  },
+  "ws:nowrap": {
+    "prefix": [
+      "ws:nowrap"
+    ],
+    "body": [
+      "ws:nowrap"
+    ],
+    "description": "white space nowrap"
+  },
+  "ws:pre": {
+    "prefix": [
+      "ws:pre"
+    ],
+    "body": [
+      "ws:pre"
+    ],
+    "description": "white space pre"
+  },
+  "ws:pre-wrap": {
+    "prefix": [
+      "ws:pre-wrap"
+    ],
+    "body": [
+      "ws:pre-wrap"
+    ],
+    "description": "white space pre wrap"
+  },
+  "ws:pre-line": {
+    "prefix": [
+      "ws:pre-line"
+    ],
+    "body": [
+      "ws:pre-line"
+    ],
+    "description": "white space pre line"
+  },
+  "ws:n": {
+    "prefix": [
+      "ws:n"
+    ],
+    "body": [
+      "ws:n"
+    ],
+    "description": "white space normal"
+  },
+  "ws:nw": {
+    "prefix": [
+      "ws:nw"
+    ],
+    "body": [
+      "ws:nw"
+    ],
+    "description": "white space nowrap"
+  },
+  "ws:p": {
+    "prefix": [
+      "ws:p"
+    ],
+    "body": [
+      "ws:p"
+    ],
+    "description": "white space pre"
+  },
+  "ws:pw": {
+    "prefix": [
+      "ws:pw"
+    ],
+    "body": [
+      "ws:pw"
+    ],
+    "description": "white space pre wrap"
+  },
+  "ws:pl": {
+    "prefix": [
+      "ws:pl"
+    ],
+    "body": [
+      "ws:pl"
+    ],
+    "description": "white space pre line"
+  },
+  "white-space:normal": {
+    "prefix": [
+      "white-space:normal"
+    ],
+    "body": [
+      "white-space:normal"
+    ],
+    "description": "white space normal"
+  },
+  "white-space:nowrap": {
+    "prefix": [
+      "white-space:nowrap"
+    ],
+    "body": [
+      "white-space:nowrap"
+    ],
+    "description": "white space nowrap"
+  },
+  "white-space:pre": {
+    "prefix": [
+      "white-space:pre"
+    ],
+    "body": [
+      "white-space:pre"
+    ],
+    "description": "white space pre"
+  },
+  "white-space:pre-wrap": {
+    "prefix": [
+      "white-space:pre-wrap"
+    ],
+    "body": [
+      "white-space:pre-wrap"
+    ],
+    "description": "white space pre wrap"
+  },
+  "white-space:pre-line": {
+    "prefix": [
+      "white-space:pre-line"
+    ],
+    "body": [
+      "white-space:pre-line"
+    ],
+    "description": "white space pre line"
+  },
+  "fw:nowrap": {
+    "prefix": [
+      "fw:nowrap"
+    ],
+    "body": [
+      "fw:nowrap"
+    ],
+    "description": "flex wrap nowrap"
+  },
+  "fw:wrap": {
+    "prefix": [
+      "fw:wrap"
+    ],
+    "body": [
+      "fw:wrap"
+    ],
+    "description": "flex wrap wrap"
+  },
+  "fw:wrap-reverse": {
+    "prefix": [
+      "fw:wrap-reverse"
+    ],
+    "body": [
+      "fw:wrap-reverse"
+    ],
+    "description": "flex wrap wrap reverse"
+  },
+  "fw:n": {
+    "prefix": [
+      "fw:n"
+    ],
+    "body": [
+      "fw:n"
+    ],
+    "description": "flex wrap nowrap"
+  },
+  "fw:w": {
+    "prefix": [
+      "fw:w"
+    ],
+    "body": [
+      "fw:w"
+    ],
+    "description": "flex wrap wrap"
+  },
+  "fw:wr": {
+    "prefix": [
+      "fw:wr"
+    ],
+    "body": [
+      "fw:wr"
+    ],
+    "description": "flex wrap wrap reverse"
+  },
+  "flex-wrap:nowrap": {
+    "prefix": [
+      "flex-wrap:nowrap"
+    ],
+    "body": [
+      "flex-wrap:nowrap"
+    ],
+    "description": "flex wrap nowrap"
+  },
+  "flex-wrap:wrap": {
+    "prefix": [
+      "flex-wrap:wrap"
+    ],
+    "body": [
+      "flex-wrap:wrap"
+    ],
+    "description": "flex wrap wrap"
+  },
+  "flex-wrap:wrap-reverse": {
+    "prefix": [
+      "flex-wrap:wrap-reverse"
+    ],
+    "body": [
+      "flex-wrap:wrap-reverse"
+    ],
+    "description": "flex wrap wrap reverse"
+  },
+  "ff:*": {
+    "prefix": [
+      "ff:"
+    ],
+    "body": [
+      "ff:$1"
+    ],
+    "description": "font family *"
+  },
+  "font-family:*": {
+    "prefix": [
+      "font-family:"
+    ],
+    "body": [
+      "font-family:$1"
+    ],
+    "description": "font family *"
+  }
+}

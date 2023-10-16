@@ -17,7 +17,13 @@
 </div>
 <br />
 
-# Features
+# Installing Visual Studio Code Extension
+
+**Layout** includes Visual Code Extension to allow you to quickly write parsing markup and helps the autocompletion for javascript and typescript files.
+
+```bash
+npm run scripts:install:code:extension
+```
 
 # Getting started
 
@@ -66,16 +72,19 @@ ReactDOM.render(
 **Layout** offers robust parsing capabilities, empowering you to swiftly craft common style definitions with a minimalistic syntax. It also affords the flexibility to create extensive style configurations. Below is an example illustrating how to express the CSS equivalent of `align-items: center` using this parsing tool.
 
 ### Leveraging Direct Properties and Values
+
 ```jsx
 <Box parse="align-items:center" />
 ```
 
 ### Streamlining with Minimalistic Notation
+
 ```jsx
 <Box parse="a:center" />
 ```
 
 ### Ultra-Simplified Approach
+
 ```jsx
 <Box parse="a:c" />
 ```
@@ -89,10 +98,7 @@ import { Box } from "@broadwaymedia/layout";
 
 ReactDOM.render(
   <Box parse="w:100% h:100% d:f a:c j:c">
-    <Box
-      parse="pa:20 br:10 d:if fd:c w:200"
-      border="1px solid #DDDDDD"
-    >
+    <Box parse="pa:20 br:10 d:if fd:c w:200" border="1px solid #DDDDDD">
       <b>John Doe</b>
       <small>@username</small>
     </Box>

@@ -20,3 +20,4 @@ Object.entries(Properties).forEach(([key, value]) => {
 });
 
 fs.writeFileSync("./docs/parsing.md", parsing);
+fs.writeFileSync("./extensions/code/README.md", parsing);
