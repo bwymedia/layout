@@ -2,7 +2,7 @@ import React from "react";
 export declare const Box: (p: BoxProps) => React.JSX.Element | null;
 export default Box;
 export type BoxGenericProps = {
-    children?: JSX.Element | JSX.Element[];
+    children?: React.ReactNode;
     native?: {
         [key: string]: unknown;
     };

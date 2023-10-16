@@ -153,7 +153,7 @@ function App() {
             <Box parse="c:#0E1115 h:228 oa:hidden br:8">
               <Box parse={code} radius={4}>
                 <Box>
-                  <span>Content</span>
+                  Content
                 </Box>
               </Box>
             </Box>

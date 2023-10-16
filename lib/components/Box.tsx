@@ -19,7 +19,7 @@ export const Box = (p: BoxProps) => {
 export default Box;
 
 export type BoxGenericProps = {
-  children?: JSX.Element | JSX.Element[];
+  children?: React.ReactNode;
   native?: {
     [key: string]: unknown;
   };
