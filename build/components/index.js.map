@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../lib/components/index.ts"],
+  "sourcesContent": ["export * from \"./Box.js\";\nexport * from \"./Text.js\";\n"],
+  "mappings": "AAAA,cAAc;AACd,cAAc;",
+  "names": []
+}

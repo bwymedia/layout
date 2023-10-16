@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../lib/components/web/TextWeb.tsx"],
+  "sourcesContent": ["import { TextProps } from \"../Text.js\";\nimport Painting from \"../../helpers/painting/TextPainting.js\";\n\nexport const TextWeb = (p: TextProps) => {\n  const style = Painting.style(p);\n  const css = Painting.css(p);\n  const extras: {\n    [key: string]: unknown;\n  } = {\n    ref: p.reference,\n  };\n\n  const Element = `${\n    p.element || p.to ? \"a\" : \"span\"\n  }` as keyof JSX.IntrinsicElements;\n\n  return (\n    <Element\n      id={p.id}\n      onClick={p.press}\n      style={style}\n      className={css}\n      target={p.target}\n      href={p.to}\n      {...extras}\n      {...p.native}\n    >\n      {p.children}\n    </Element>\n  );\n};\n\nexport default TextWeb;\n"],
+  "mappings": "AACA,OAAO,cAAc;AAEd,MAAM,UAAU,CAAC,MAAiB;AACvC,QAAM,QAAQ,SAAS,MAAM,CAAC;AAC9B,QAAM,MAAM,SAAS,IAAI,CAAC;AAC1B,QAAM,SAEF;AAAA,IACF,KAAK,EAAE;AAAA,EACT;AAEA,QAAM,UAAU,GACd,EAAE,WAAW,EAAE,KAAK,MAAM,MAC5B;AAEA,SACE;AAAA,IAAC;AAAA;AAAA,MACC,IAAI,EAAE;AAAA,MACN,SAAS,EAAE;AAAA,MACX;AAAA,MACA,WAAW;AAAA,MACX,QAAQ,EAAE;AAAA,MACV,MAAM,EAAE;AAAA,MACP,GAAG;AAAA,MACH,GAAG,EAAE;AAAA;AAAA,IAEL,EAAE;AAAA,EACL;AAEJ;AAEA,IAAO,kBAAQ;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../lib/components/web/BoxWeb.tsx"],
+  "sourcesContent": ["import React from \"react\";\nimport Painting from \"../../helpers/painting/BoxPainting.js\";\nimport { BoxProps } from \"../Box.js\";\n\nexport const BoxWeb = (p: BoxProps) => {\n  const style = Painting.style(p);\n  const css = Painting.css(p);\n  const extras: {\n    [key: string]: unknown;\n  } = {\n    ref: p.reference,\n  };\n\n  const Element = `${p.element || \"div\"}` as keyof JSX.IntrinsicElements;\n\n  return (\n    <Element\n      id={p.id}\n      onClick={p.press}\n      style={style}\n      className={css}\n      {...extras}\n      {...p.native}\n    >\n      {p.children}\n    </Element>\n  );\n};\n\nexport default BoxWeb;"],
+  "mappings": "AAAA,OAAO,WAAW;AAClB,OAAO,cAAc;AAGd,MAAM,SAAS,CAAC,MAAgB;AACrC,QAAM,QAAQ,SAAS,MAAM,CAAC;AAC9B,QAAM,MAAM,SAAS,IAAI,CAAC;AAC1B,QAAM,SAEF;AAAA,IACF,KAAK,EAAE;AAAA,EACT;AAEA,QAAM,UAAU,GAAG,EAAE,WAAW,KAAK;AAErC,SACE;AAAA,IAAC;AAAA;AAAA,MACC,IAAI,EAAE;AAAA,MACN,SAAS,EAAE;AAAA,MACX;AAAA,MACA,WAAW;AAAA,MACV,GAAG;AAAA,MACH,GAAG,EAAE;AAAA;AAAA,IAEL,EAAE;AAAA,EACL;AAEJ;AAEA,IAAO,iBAAQ;",
+  "names": []
+}

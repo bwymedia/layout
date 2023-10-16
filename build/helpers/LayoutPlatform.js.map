@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../lib/helpers/LayoutPlatform.ts"],
+  "sourcesContent": ["export enum LayoutPlatforms {\n  NODE = \"node\",\n  NATIVE = \"native\",\n  WEB = \"web\",\n  UNKOWN = \"unkown\",\n}\n\nconst LayoutPlatform = {\n  OS: (() => {\n    try {\n      /* @ts-ignore */\n      if (typeof document !== \"undefined\") {\n        return LayoutPlatforms.WEB;\n      } else if (\n        /* @ts-ignore */\n        typeof navigator !== \"undefined\" &&\n        /* @ts-ignore */\n        navigator?.product === \"ReactNative\"\n      ) {\n        return LayoutPlatforms.NATIVE;\n      } else {\n        return LayoutPlatforms.NODE;\n      }\n    } catch (error) {\n      console.error(error);\n      return LayoutPlatforms.UNKOWN;\n    }\n  })(),\n};\n\nexport default LayoutPlatform;\n"],
+  "mappings": "AAAO,IAAK,kBAAL,kBAAKA,qBAAL;AACL,EAAAA,iBAAA,UAAO;AACP,EAAAA,iBAAA,YAAS;AACT,EAAAA,iBAAA,SAAM;AACN,EAAAA,iBAAA,YAAS;AAJC,SAAAA;AAAA,GAAA;AAOZ,MAAM,iBAAiB;AAAA,EACrB,KAAK,MAAM;AACT,QAAI;AAEF,UAAI,OAAO,aAAa,aAAa;AACnC,eAAO;AAAA,MACT;AAAA;AAAA,QAEE,OAAO,cAAc;AAAA,QAErB,WAAW,YAAY;AAAA,QACvB;AACA,eAAO;AAAA,MACT,OAAO;AACL,eAAO;AAAA,MACT;AAAA,IACF,SAAS,OAAO;AACd,cAAQ,MAAM,KAAK;AACnB,aAAO;AAAA,IACT;AAAA,EACF,GAAG;AACL;AAEA,IAAO,yBAAQ;",
+  "names": ["LayoutPlatforms"]
+}
