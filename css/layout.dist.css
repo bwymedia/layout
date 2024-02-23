@@ -288,6 +288,12 @@
 .d\:inline {
   display: inline;
 }
+.d\:inline-flex {
+  display: inline-flex;
+}
+.d\:none {
+  display: none;
+}
 .d\:f {
   display: flex;
 }
@@ -300,6 +306,9 @@
 .d\:i {
   display: inline;
 }
+.d\:if {
+  display: inline-flex;
+}
 .d\:unset {
   display: unset;
 }
@@ -308,9 +317,6 @@
 }
 .d\:inherit {
   display: inherit;
-}
-.d\:none {
-  display: none;
 }
 .d\:auto {
   display: auto;

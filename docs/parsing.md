@@ -8,7 +8,7 @@ Parsing language follows the following structure, while writing string.
 key:value key:value
 ```
 
-All numerical units `em`, `rem`, `px`, `vh`, `vw`, `%` and similars are supported, as these are interpreted by the technology being used. In case no units are being used, a value being numerical would default to `px`, if that specific CSS property supports it, such as `width` and `height` for instance.
+All numerical units `em`, `rem`, `px`, `vh`, `vw`, `%` and similar are supported, as these are interpreted by the technology being used. In case no units are being used, a value being numerical would default to `px`, if that specific CSS property supports it, such as `width` and `height` for instance.
 
 ### Usage Example
 
@@ -45,14 +45,14 @@ Writing the attribute directly, would automatically be accepted, you can use the
 
 # Supported Attributes and Values
 
-| CSS Equilevent | JSX Equilevent | Possible Options | Simplified Property | Simplified Options |
+| CSS Equivalent | JSX Equivalent | Possible Options | Simplified Property | Simplified Options |
 | -------- | ------- | ------- | ------- | ------- |
 | align-items | alignItems | flex-start, flex-end, center, baseline, stretch | a | fs, fe, c, b, s |
 | bottom | bottom | ... | b | ... |
 | border-radius | borderRadius | ... | br | ... |
 | background-color | backgroundColor | ... | c | ... |
 | color | color | ... | tc | ... |
-| display | display | flex, block, inline-block, inline | d | f, b, ib, i |
+| display | display | flex, block, inline-block, inline, inline-flex, none | d | f, b, ib, i, if, none |
 | flex | flex | ... | f | ... |
 | flex-direction | flexDirection | row, row-reverse, column, column-reverse | fd | r, rr, c, cr |
 | font-size | fontSize | ... | fs | ... |

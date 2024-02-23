@@ -53,12 +53,14 @@ export const Properties: LayoutProperties = {
   d: {
     jsx: "display",
     css: "display",
-    options: ["flex", "block", "inline-block", "inline"],
+    options: ["flex", "block", "inline-block", "inline", "inline-flex", "none"],
     shorthand: {
       f: "flex",
       b: "block",
       ib: "inline-block",
       i: "inline",
+      if: "inline-flex",
+      none: "none",
     },
   },
   f: {

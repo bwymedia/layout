@@ -1,4 +1,4 @@
-import { TextProps } from "../../index.js";
+import { TextProps } from "../../components/Text";
 import Parser from "../Parser.js";
 import Styles from "../styles/TextStyles.js";
 

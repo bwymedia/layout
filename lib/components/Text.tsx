@@ -1,15 +1,10 @@
 import React from "react";
 import LayoutPlatform, { LayoutPlatforms } from "../helpers/LayoutPlatform.js";
 import TextWeb from "./web/TextWeb.js";
-import TextNative from "./native/TextNative.js";
 
 export const Text = (p: TextProps) => {
   if (LayoutPlatform.OS === LayoutPlatforms.WEB) {
     return TextWeb(p);
-  }
-
-  if (LayoutPlatform.OS === LayoutPlatforms.NATIVE) {
-    return TextNative(p);
   }
 
   console.warn("Text component is not supported for this platform.");
@@ -19,7 +14,7 @@ export const Text = (p: TextProps) => {
 export default Text;
 
 export type TextGenericProps = {
-  children?: JSX.Element | JSX.Element[];
+  children?: React.ReactNode;
   native?: {
     [key: string]: unknown;
   };

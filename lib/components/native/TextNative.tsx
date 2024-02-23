@@ -4,7 +4,7 @@ import React from "react";
 
 export const TextNative = (p: TextProps) => {
   const { Text, Linking } = require("react-native");
-  
+
   const style = Painting.style({
     ...p,
     pure: true,

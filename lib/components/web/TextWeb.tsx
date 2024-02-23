@@ -11,7 +11,7 @@ export const TextWeb = (p: TextProps) => {
   };
 
   const Element = `${
-    p.element || p.to ? "a" : "span"
+    p.element ? p.element : p.to ? "a" : "span"
   }` as keyof JSX.IntrinsicElements;
 
   return (

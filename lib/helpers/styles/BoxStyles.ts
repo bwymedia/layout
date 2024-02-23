@@ -7,7 +7,7 @@ export class BoxStyles {
     },
     rule: string,
     value: unknown,
-    defaults: unknown = null,
+    defaults: unknown = null
   ) => {
     if (value) {
       styles[rule] = value;
@@ -42,58 +42,58 @@ export class BoxStyles {
     _ = this.apply(
       _,
       "paddingTop",
-      props.padding || props.mode === "padding" ? props.top : undefined,
+      props.padding || props.mode === "padding" ? props.top : undefined
     );
     _ = this.apply(
       _,
       "paddingLeft",
-      props.padding || props.mode === "padding" ? props.left : undefined,
+      props.padding || props.mode === "padding" ? props.left : undefined
     );
     _ = this.apply(
       _,
       "paddingBottom",
-      props.padding || props.mode === "padding" ? props.bottom : undefined,
+      props.padding || props.mode === "padding" ? props.bottom : undefined
     );
     _ = this.apply(
       _,
       "paddingRight",
-      props.padding || props.mode === "padding" ? props.right : undefined,
+      props.padding || props.mode === "padding" ? props.right : undefined
     );
     _ = this.apply(
       _,
       "marginTop",
-      props.margin || props.mode === "margin" ? props.top : undefined,
+      props.margin || props.mode === "margin" ? props.top : undefined
     );
     _ = this.apply(
       _,
       "marginLeft",
-      props.margin || props.mode === "margin" ? props.left : undefined,
+      props.margin || props.mode === "margin" ? props.left : undefined
     );
     _ = this.apply(
       _,
       "marginBottom",
-      props.margin || props.mode === "margin" ? props.bottom : undefined,
+      props.margin || props.mode === "margin" ? props.bottom : undefined
     );
     _ = this.apply(
       _,
       "marginRight",
-      props.margin || props.mode === "margin" ? props.right : undefined,
+      props.margin || props.mode === "margin" ? props.right : undefined
     );
     _ = this.apply(_, "top", props.mode === "position" ? props.top : undefined);
     _ = this.apply(
       _,
       "left",
-      props.mode === "position" ? props.left : undefined,
+      props.mode === "position" ? props.left : undefined
     );
     _ = this.apply(
       _,
       "bottom",
-      props.mode === "position" ? props.bottom : undefined,
+      props.mode === "position" ? props.bottom : undefined
     );
     _ = this.apply(
       _,
       "right",
-      props.mode === "position" ? props.right : undefined,
+      props.mode === "position" ? props.right : undefined
     );
     _ = this.apply(_, "boxShadow", props.shadow);
     _ = this.apply(
@@ -101,7 +101,7 @@ export class BoxStyles {
       "boxSizing",
       props.top || props.left || props.right || props.bottom
         ? "border-box"
-        : undefined,
+        : undefined
     );
     _ = this.apply(_, "zIndex", props.layer);
     if (props.image) {

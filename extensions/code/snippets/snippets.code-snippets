@@ -242,6 +242,24 @@
     ],
     "description": "display inline"
   },
+  "d:inline-flex": {
+    "prefix": [
+      "d:inline-flex"
+    ],
+    "body": [
+      "d:inline-flex"
+    ],
+    "description": "display inline flex"
+  },
+  "d:none": {
+    "prefix": [
+      "d:none"
+    ],
+    "body": [
+      "d:none"
+    ],
+    "description": "display none"
+  },
   "d:f": {
     "prefix": [
       "d:f"
@@ -278,6 +296,15 @@
     ],
     "description": "display inline"
   },
+  "d:if": {
+    "prefix": [
+      "d:if"
+    ],
+    "body": [
+      "d:if"
+    ],
+    "description": "display inline flex"
+  },
   "display:flex": {
     "prefix": [
       "display:flex"
@@ -313,6 +340,24 @@
       "display:inline"
     ],
     "description": "display inline"
+  },
+  "display:inline-flex": {
+    "prefix": [
+      "display:inline-flex"
+    ],
+    "body": [
+      "display:inline-flex"
+    ],
+    "description": "display inline flex"
+  },
+  "display:none": {
+    "prefix": [
+      "display:none"
+    ],
+    "body": [
+      "display:none"
+    ],
+    "description": "display none"
   },
   "f:*": {
     "prefix": [

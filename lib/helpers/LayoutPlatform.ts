@@ -2,7 +2,7 @@ export enum LayoutPlatforms {
   NODE = "node",
   NATIVE = "native",
   WEB = "web",
-  UNKOWN = "unkown",
+  UNKNOWN = "unknown",
 }
 
 const LayoutPlatform = {
@@ -23,7 +23,7 @@ const LayoutPlatform = {
       }
     } catch (error) {
       console.error(error);
-      return LayoutPlatforms.UNKOWN;
+      return LayoutPlatforms.UNKNOWN;
     }
   })(),
 };
